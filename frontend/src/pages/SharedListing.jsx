@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { useParams } from "react-router";
 import { getListingByIdThunk } from "../redux/features/userThunk";
+import { Suspense } from "react";
 const api = import.meta.env.VITE_BACKEND_URL;
 
 export default function SharedListing() {

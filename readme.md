@@ -1,4 +1,4 @@
-# NUA Assignmen 
+# NUA Assignment
 
 ## About the project
 
@@ -6,7 +6,7 @@ This project is store and share the images, pdf.
 
 ---
 
-## 🌐 Live Demo
+## 🌐 Live Demo (Backed is free cluster so its take 40-50 Second to open, please refresh)
 🔗 [View Live Project](https://nua-1-frontend.onrender.com)
 
 ---

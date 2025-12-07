@@ -9,7 +9,7 @@ function ListingCard({listing, handleDelete}){
 
     return (
         <div className="bg-slate-100 border border-gray-300 space-y-5 shadow-md max-h-72 h-auto w-full sm:w-80 rounded-md p-2 relative">
-            <button onClick={()=> alert(`http://localhost:5173/${listing._id}`)} className="absolute top-5 right-5 bg-slate-300 p-2 border cursor-pointer rounded-md"><i className="fa-solid fa-paper-plane"></i></button>
+            <button onClick={()=> alert(`https://nua-1-frontend.onrender.com/${listing._id}`)} className="absolute top-5 right-5 bg-slate-300 p-2 border cursor-pointer rounded-md"><i className="fa-solid fa-paper-plane"></i></button>
             {listing?.names === 'IMG' && 
             <img src={`${api}/${listing?.items[0]}`} className="rounded-md max-h-52 w-full" alt="" />}
             {listing?.names === 'PDF' && 

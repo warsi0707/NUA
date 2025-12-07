@@ -17,6 +17,10 @@ app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 app.use(cors({
     origin: FRONTEND_URL
 }))
+
+app.get("/", (req, res)=>{
+    return res.send("Hellow world")
+})
 app.use("/user", userRouter)
 
 const main =()=>{
